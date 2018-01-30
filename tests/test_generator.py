@@ -2,6 +2,7 @@ import unittest
 
 from buzz import generator
 
+# unit test case 1
 def test_sample_single_word():
     l = ('foo', 'bar', 'foobar')
     word = generator.sample(l)
