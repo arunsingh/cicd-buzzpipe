@@ -8,6 +8,7 @@ def test_sample_single_word():
     word = generator.sample(l)
     assert word in l
 
+# unit test case 2
 def test_sample_multiple_words():
     l = ('foo', 'bar', 'foobar')
     words = generator.sample(l, 2)
